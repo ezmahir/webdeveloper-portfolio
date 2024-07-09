@@ -51,6 +51,34 @@ nav ul{
     display: flex;
     align-items: center;
 }
-/* .col{
-    color: FD6E0A;
-} */
+
+/* banner styles */
+.banner-greet{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-pp{
+  width: 580px;
+
+}
+
+/* header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
